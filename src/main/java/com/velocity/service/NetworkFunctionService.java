@@ -1,5 +1,7 @@
 package com.velocity.service;
 
-public interface NetworkFunctionService {
+import com.velocity.model.NetworkFunction;
 
+public interface NetworkFunctionService {
+	 public NetworkFunction getNetworkFunctionById(Integer id);
 }
